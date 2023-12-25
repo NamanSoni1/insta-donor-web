@@ -1,0 +1,175 @@
+You can add global styles to this file, and also import other style files
+/* @import 'variable'; */
+/* @import 'base/basic_setup'; */
+
+header{
+    .header-top{       
+        .col-det{
+            .ulleft{
+                li{
+                    float: left;
+                    padding: 11px;
+                    color: #FFF;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    i{
+                        margin-right: 5px;
+                    }
+                    span{
+                        margin-left: 15px;
+                    }
+                }
+            }
+            .ulright{
+                float: right;
+                li{
+                    float: left;
+                    padding: 11px;
+                    color: #FFF;
+                    font-size: 1rem;
+                    i{
+                        margin-right: 5px;
+                    }
+                    span{
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .header-bottom{
+        .navbar{
+            float: right;
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+        background-color: #FFF;
+        img{
+            margin-top: 15px;
+            @media screen and (max-width: 991px){
+                padding: 5px;
+                margin-top: 0px;
+                max-width: 230px;
+            }
+        }
+    }
+    .nav-col{
+        .navbar-nav{
+            li{
+                padding: 14px 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.navbar{
+    @media screen and (max-width: 767px){
+        padding: 0px;
+    } 
+}
+.navbar-toggler{
+   position: absolute;
+   right: 0px;
+   top: 19px;
+   @media screen and (max-width: 767px){
+        top: -50px;
+        
+        
+   }
+}
+.scroll-to-fixed-fixed{
+    background-color: #FFF;
+}
+
+
+.slider-detail {
+ 
+
+    .carousel-caption {
+      text-align: left;
+      bottom: 90px;
+      bottom: 105px;
+      h5 {
+        font-size: 44px;
+        margin-left: -40px;
+        font-weight: 600;
+        text-align: center;
+      }
+  
+      p {
+        margin-left: -40px;
+        
+        margin-top: 40px;
+        font-size: 19px;
+        text-align: center;
+      }
+    }
+  
+    .vbh {
+      margin-left: -40px;
+      text-align: center;
+  
+      .btn {
+        padding: 10px;
+        margin-top: 40px;
+        width: 200px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+  
+    .vdg-cur {
+      color: #FFF;
+      padding-top: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 1180px) {
+    .slider-detail .carousel-caption {
+      bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 1057px) {
+    .slider-detail .carousel-caption {
+      bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1057px) {
+    .slider-detail .carousel-caption h5 {
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 927px) {
+    .slider-detail .carousel-caption h5 {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 1057px) {
+    .slider-detail .carousel-caption p {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 927px) {
+    .slider-detail .carousel-caption p {
+      font-size: 13px;
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn-primary.disabled, .btn-primary:disabled, .btn-primary.disabled:hover {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}

@@ -1,0 +1,41 @@
+.donation-care {
+    background-color: #FFF;
+  
+    h4 {
+      padding: 10px;
+      margin-bottom: 0px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+  
+    p {
+      padding: 10px;
+      padding-top: 0px;
+      text-align: justify;
+        font-size: .85rem;
+    }
+  
+    i {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+  
+    .vd {
+      margin-bottom: 20px;
+        
+    }
+      .bkjiu{
+          background-color: #F8F9FA;
+          padding: 5px;
+          .btn{
+              margin-bottom: 6px;
+              margin-left: 6px;
+          }
+      }
+  }
+  
+  @media screen and (max-width: 940px) {
+    .health-care {
+      padding: 50px 10px;
+    }
+  }

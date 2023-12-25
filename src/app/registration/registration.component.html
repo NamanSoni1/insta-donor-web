@@ -1,0 +1,65 @@
+<div id="donar" class="blog-container contaienr-fluid">
+  <div class="container">
+    <div class="row session-title">
+      <h2>Register to become a Donor!</h2>
+     </div>
+      <form [formGroup]="profileForm" (ngSubmit)="onSubmit(profileForm.value)">
+          <div class="form-row">
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault01">Name</label>
+              <input type="text" class="form-control" id="validationDefault01" formControlName="name" placeholder="Full name" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault02">Contact number</label>
+              <input type="number" class="form-control" id="validationDefault02" formControlName="number" placeholder="Contact number" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefaultUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2">&#64;</span>
+                </div>
+                <input type="email" class="form-control" id="validationDefaultUsername" formControlName="email" placeholder="Email" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault02">Address</label>
+              <input type="text" class="form-control" id="validationDefault02" formControlName="address" placeholder="Address" required>
+            </div>
+          </div>
+          <div class="form-row">
+              <div class="col-md-3 mb-3">
+                  <label for="validationDefault04">Blood Group</label>
+                  <input type="text" class="form-control" id="validationDefault04" formControlName="bloodGroup" placeholder="Blood Group" required>
+                </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault03">Gender</label>
+              <!-- <input type="radio" class="form-control" id="validationDefault03" formControlName="male" placeholder="Male" required> -->
+              <select class="form-control" formControlName="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault04">Password</label>
+              <input type="password" class="form-control" id="validationDefault04" formControlName="password" placeholder="Password" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault05">Blood Group Report</label>
+              <input type="file" class="form-control" id="validationDefault05" formControlName="file" placeholder="Zip" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+     
+  </div>
+</div>

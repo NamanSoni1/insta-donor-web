@@ -1,0 +1,109 @@
+
+footer{
+    padding: 5px !important;
+    padding-bottom: 5px !important;
+    @media screen and (max-width: 600px){
+      padding-bottom: 0px !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    @media screen and (max-width: 991px){
+      padding-bottom: 50px !important;
+    }
+    .content-ro{
+        color: #FFF;
+        margin-top: 20px;
+        h2{
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .footer-contact{
+            .address-row{
+                display: flex;
+                margin-top: 10px;
+                .icon{
+                    padding: 15px;
+                }
+                .detail{
+                    p{
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        .footer-links{
+
+            ul{
+                margin-bottom: 15px;
+                li{
+                    float: left;
+                    width: 50%;
+                    font-weight: 300;
+                }
+            }
+        }
+        .form-card{
+               margin-top: -138px;
+              @media screen and (max-width: 600px){
+                margin-top: 10px;
+              }
+            .form-title{
+                 padding: 20px;
+                background-color: #f9f9f9;
+                h4{
+                    margin-bottom: 0px;
+                    font-weight: 600;
+                    color: #444;
+                    text-align: center;
+                }
+            }
+            background-color: #fff;
+            .form-body{
+                padding: 20px;
+                border-top: 1px solid #cccccc;
+                input{
+                    border-radius: 0px;
+                    height: 47px;
+                }
+            }
+
+        }
+    }
+    .footer-copy{
+        padding: 30px 0px;
+        color: #FFF;
+        margin-top: 35px;
+        border-top: 1px solid #fd8c90;
+        padding-bottom: 0px;
+        a{
+            color: #ccc;
+        }
+        .socila-link{
+          @media screen and (max-width: 991px){
+            margin-top: 20px;
+          }
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    padding: 0px 20px;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.footer-bot-image{
+    img{
+        position: absolute;
+           margin-top: -112px;
+    }
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}

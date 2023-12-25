@@ -1,0 +1,23 @@
+.about-us{  
+    background-color: #FFF;
+    .text{
+        p{
+            font-weight: 300;
+            font-size: .85rem;
+            color: #000;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+    }
+    .image{
+        img{
+            margin-left: 200px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .image img{
+        margin-left: 100px !important;  
+    }
+  }

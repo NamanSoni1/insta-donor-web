@@ -1,0 +1,8 @@
+.gallery{
+    background-color: #f1f1f152;
+    @media (min-width: 478px){
+        .gg-element:nth-child(3n+0) {
+            grid-row-end: span 1;
+        }
+    }
+}
